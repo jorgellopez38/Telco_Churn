@@ -37,17 +37,20 @@ def prep_telco(telco):
     '''
     This function will prepare the telco_churn dataset
     '''
+    # Convert to correct datatype 
     telco['total_charges'] = telco['total_charges'].replace(' ', '0')
     telco['total_charges'] = telco['total_charges'].astype(float)
-    #df['churn'] = df['churn'].astype(int)
+    
     
     to_dummy = ['churn', 'gender', 'partner', 'dependents', 'phone_service', 'multiple_lines', 'online_security', 
                 'online_backup', 'device_protection', 'tech_support', 'streaming_tv', 'streaming_movies', 
                 'paperless_billing', 'contract_type', 'internet_service_type', 
                 'payment_type']
+    # create dummies for non-binart categorical variables
     dummies = pd.get_dummies(telco[to_dummy], drop_first=False)
     telco = pd.concat([telco, dummies], axis=1)
-    
+
+    # d rop duplicate columns
     drop = ['multiple_lines_No phone service', 'online_security_No internet service',
         'online_backup_No internet service', 'device_protection_No internet service',
         'tech_support_No internet service', 'streaming_tv_No internet service',
