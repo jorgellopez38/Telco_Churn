@@ -76,17 +76,17 @@ The main goal of a business is to make money so that it can continue to stay ope
 
 - The biggest driver of churn appears to be contract type. Customers who have month-to-month contracts churn at a rate just over 40%
 
-- Customers with paperless billing 
+- Paperless billing does not appear to have a big affect on churn rate.
 
 - Whether or not a customer has phone service doesn't play a significant role in churn.
 
-- Age and gender appear to not have a significant affect on churn.
+- Age and gender do not appear to have a significant affect on churn.
 
-- Monthly charges appear to influence churn.
+- Monthly charges do appear to influence churn rate.
 
 
 # Recommendations
 
-- Create a savings bundle (like Progressive) for customers who have multiple products.
-- Have Tech Support as a priority for not only customer service, but for aquiring customer trust
-- Give incentives to month-to-month contracts as they are the most popular contract type. Incentives could include a temporarily free service such as Tech Support or (for example) if they were to go paperless we could offer a discount and get card information and collect more data to help with furture data science solutions. 
+- Creating a savings bundle (like Progressive) for customers who have multiple products can help incentivize using more services.
+- Use Tech Support as a priority and differentiator  for not only customer service, but for aquiring customer trust
+- Give incentives to month-to-month contracts as it is the most popular contract type that churns. Incentives could include (for example) a temporarily free service such as Tech Support or if they were to go paperless with an app we could apply a discount while also collecting customer data to help with furture data science solutions. 
