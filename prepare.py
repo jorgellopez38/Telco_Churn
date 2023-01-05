@@ -37,7 +37,7 @@ def prep_telco(telco):
     '''
     This function will prepare the telco_churn dataset for exploration
     '''
-    # Convert to correct datatype 
+    # Convert to correct datatype and take out white space
     telco['total_charges'] = telco['total_charges'].replace(' ', '0')
     telco['total_charges'] = telco['total_charges'].astype(float)
     
