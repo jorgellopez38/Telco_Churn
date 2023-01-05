@@ -87,10 +87,7 @@ The main goal of a business is to make money so that it can continue to stay ope
 
 # Recommendations
 
-<<<<<<< HEAD
 - Creating a savings bundle (like Progressive) for customers who have multiple products can help incentivize using more services.
-=======
 - Creating a savings bundle (like some insurance companies) for customers who have multiple products can help incentivize using more services.
->>>>>>> ca6851c59fa02faa5f04e5edb89c389e67397d09
 - Use Tech Support as a priority and differentiator  for not only customer service, but for aquiring customer trust
 - Give incentives to month-to-month contracts as it is the most popular contract type that churns. Incentives could include (for example) a temporarily free service such as Tech Support or if they were to go paperless with an app we could apply a discount while also collecting customer data to help with furture data science solutions. 
