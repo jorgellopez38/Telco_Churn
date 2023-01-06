@@ -78,11 +78,7 @@ The main goal of a business is to make money so that it can continue to stay ope
 
 - Paperless billing does not appear to have a big affect on churn rate.
 
-- Whether or not a customer has phone service doesn't play a significant role in churn.
-
-- Age and gender do not appear to have a significant affect on churn.
-
-- Monthly charges do appear to influence churn rate.
+- Age does not appear to have a significant affect on churn.
 
 
 # Recommendations
