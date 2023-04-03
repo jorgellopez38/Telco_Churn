@@ -85,6 +85,7 @@ def get_seniors(df):
     
     
 def question_hypothesis_test3(df):
+    ''' this funtion takes in a dataframe and returns a chi square test'''
     # trusted chi-square test
     observed3 = pd.crosstab(df.senior_citizen, df.churn_Yes)
     observed3
@@ -98,6 +99,7 @@ def question_hypothesis_test3(df):
     
 
 def get_paper(df):
+    ''' this funtion takes in a dataframe and returns a plot with paperless billing and churning'''
     # count plot
     sns.set_theme(style="whitegrid")
     sns.countplot(data=df, x="churn_Yes", hue="paperless_billing_Yes")
@@ -113,6 +115,7 @@ def get_paper(df):
     
     
 def question_hypothesis_test4(df):
+    ''' this funtion takes in a dataframe and returns a chi square test'''
     observed4 = pd.crosstab(df.paperless_billing_Yes, df.churn_Yes)
     observed4
     # do not forget alpha
